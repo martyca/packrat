@@ -24,6 +24,7 @@ def wget(url):
         output.write(stream.read())
     return
 
+
 with open("list.json", 'r') as f:
     parsed_list = json.loads(f.read())
 
